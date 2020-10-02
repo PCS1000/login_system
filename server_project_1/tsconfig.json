@@ -24,15 +24,6 @@
       "@controllers/*": [
         "./src/controllers/*"
       ],
-      "@models/*": [
-        "./src/models/*"
-      ],
-      "@payment/*": [
-        "./src/routes/Payment/*"
-      ],
-      "@MercadoPago/*": [
-        "./src/controllers/MercadoPago/*"
-      ],
       "@config/*": [
         "./src/config/*"
       ]

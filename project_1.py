@@ -1,7 +1,7 @@
 import random
 import requests
 
-url = 'https://71ee79e85c66.ngrok.io/users'
+url = 'http://localhost:3000/users'
 
 def login_system(): 
     name_input = input('Enter your name: ')

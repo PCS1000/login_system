@@ -1,9 +1,10 @@
 import { Request, Response } from 'express'
+import path from 'path'
 
 const userRoutes = (app, fs) => {
 
     // variables
-    const dataPath = '../data/users.json';
+    const dataPath = path.join(`${__dirname}/../data/users.json`)
 
     // helper methods
     const readFile = (callback, returnJson = false, filePath = dataPath, encoding = 'utf8') => {
